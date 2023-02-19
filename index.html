@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMX STUDIO</title>
+
+
+    <!-- linkowanie bootstrapa -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- linkowanie ikon z bootstrapa -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- linkowanie czcionki google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="bi bi-camera2 orange-color"></i> MMX STUDIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+      <section id="home" class="home">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-light text-center">
+            <p class="display-1"> <span class="orange-color">MMX</span> Studio</p>
+            <p class="welcome-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#aboutus" class="btn">Meet us</a>
+            <div class="hero-shadow"></div>
+        </div>
+      </section>
+
+      <main>
+        <section id="aboutus">
+            <div class="container py-5 about-us-boxes">
+                <div class="row text-center">
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="aboutus-box m-3 p-4 p-lg-5 border text-dark">
+                            <h3>Quality</h3>
+                            <i class="bi bi-check2 aboutus-icon"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, adipisci.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="aboutus-box m-3 p-4 p-lg-5 border text-light bg-dark">
+                            <h3>Customers</h3>
+                            <i class="bi bi-person-plus aboutus-icon"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, adipisci.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="aboutus-box m-3 p-4 p-lg-5 border text-dark">
+                            <h3>Esthetics</h3>
+                            <i class="bi bi-aspect-ratio aboutus-icon"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, adipisci.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="aboutus-box m-3 p-4 p-lg-5 border text-light bg-dark">
+                            <h3>Prices</h3>
+                            <i class="bi bi-currency-dollar aboutus-icon"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container py-5">
+                <p class="display-3 text-uppercase text-dark text-center mb-4">What makes us <span class="orange-color">stand out</span> </p>
+
+                <div class="accordion py-5" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Our brand
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequatur itaque animi sequi aperiam dolor, voluptatibus illum, similique minima voluptas officiis porro nulla voluptate dicta quibusdam ab, repudiandae fugiat consectetur!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Relations with Customers
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptates molestiae deleniti ab adipisci dicta sint? Accusamus reprehenderit dicta necessitatibus vero illum minus eum facilis labore, adipisci omnis harum suscipit!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Awards
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quia inventore quasi consequuntur eaque possimus aliquid. Quam accusantium qui optio iste obcaecati odio, animi ut est quaerat cum quae libero.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team py-5">
+            <div class="container py-5 text-center">
+                <p class="display-3 orange-color mb-0 text-uppercase">Team</p>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 py-5">
+                    <div class="col">
+                      <div class="card h-100" onclick="void(0)">
+                        <img src="/img/team/adult-gb290f386c_1920.jpg" class="card-img-top" alt="CEO">
+                        <div class="card-body">
+                          <h5 class="card-title">CEO</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100" onclick="void(0)">
+                        <img src="/img/team/entrepreneur-g4d572394d_1920.jpg" class="card-img-top" alt="HR">
+                        <div class="card-body">
+                          <h5 class="card-title">HR</h5>
+                          <p class="card-text">This is a short card.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100" onclick="void(0)">
+                        <img src="/img/team/portrait-g372925b94_1920.jpg" class="card-img-top" alt="photographer">
+                        <div class="card-body">
+                          <h5 class="card-title">Photographer</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100" onclick="void(0)">
+                        <img src="/img/team/woman-g87d1ea1d3_1920.jpg" class="card-img-top" alt="Designer">
+                        <div class="card-body">
+                          <h5 class="card-title">Designer</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact bg-dark text-light py-5">
+            <div class="container text-center py-5">
+                <p class="display-3 pb-lg-3 text-uppercase">Write to <span class="orange-color">us!</span> </p>
+
+                <div class="row">
+                    <div class="col-lg-9 my-5 m-lg-0">
+                        <form>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-dark" placeholder="Name and surname">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control bg-dark" placeholder="E-mail">
+                            </div>
+                            <div class="input-group mb-3">
+                                <textarea class="form-control bg-dark" rows="10" placeholder="Your text"></textarea>
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-light px-4 py-2 px-5 submit-btn">
+                        </form>
+
+                    </div>
+                    <div class="col-lg-3 mt-4 m-lg-0 contact-info pt-lg-5">
+                        <h3>Address:</h3>
+                        <p><span class="orange-color">MMX</span> Studio</p>
+                        <p><i class="bi bi-geo-alt orange-color"></i> Wall st. <br> 12334 New York</p>
+                        <p><i class="bi bi-phone orange-color"></i> +48 555 555 555</p>
+                        <p><i class="bi bi-at orange-color"></i> mmx@mail.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer bg-dark text-light border-top">
+            <p class="mb-0 py-5 text-center">&copy; MMX Studio</p>
+        </footer>
+
+      </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
